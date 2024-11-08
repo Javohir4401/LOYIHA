@@ -1,12 +1,9 @@
 <?php
 
-class DB{
-
+class DB {
     public $pdo;
-
-    public function __construct() {
-        $dsn = "mysql:host=localhost;dbname=homework";
-        $this->pdo = new PDO($dsn, username: "root", password: "1112");
-        return$this->pdo;
+    public function __construct () {
+        $dsn = 'mysql:host=127.0.0.1;dbname=work';
+        $this->pdo = new PDO($dsn, 'root', '1112');
     }
 }
