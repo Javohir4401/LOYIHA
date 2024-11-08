@@ -10,7 +10,23 @@ bu loyiha ishchilarni normal 8 soat ishlashini nazorat qiladi yani ishchilarni k
 
 ## O'rnatish
 
-Loyihani o'rnatish bo'yicha yo'riqnomalar:
+# Loyihani o'rnatish bo'yicha yo'riqnomalar:
 
-```bash
-bash script_or_command_here.sh
+```GITHUB
+
+…yoki buyruq satrida yangi ombor yarating
+
+echo "# LOYHA" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git filiali -M main 
+git remote add origin https://github.com/Javohir4401/LOYHA.git
+ git push - u kelib chiqishi asosiy
+
+
+…yoki mavjud omborni buyruq satridan suring
+
+git remote add origin https://github.com/Javohir4401/LOYHA.git
+ git branch -M main 
+git push -u origin main
