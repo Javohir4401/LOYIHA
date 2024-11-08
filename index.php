@@ -10,6 +10,8 @@ if (isset($_POST['name']) && isset($_POST['arrived_at']) && isset($_POST['left_a
     }
 }
 $records = $workDay->getWorDayList();
+$currentPage = isset($_GET['page'])  ? $_GET['page'] : 0;
+$records = $workDay->getWorkDayListWithPagination($currentPage);
 
 
 $debt = $workDay->calculateDebtTimeForEachUser();
