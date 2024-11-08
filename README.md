@@ -8,9 +8,9 @@ Bu loyiha PHP tilda yozilgan, 4 ta fayldan iborat va o'zaro bir biriga ulangan b
 bu loyiha ishchilarni normal 8 soat ishlashini nazorat qiladi yani ishchilarni kelgan vaqti va ketgan vaqti orasidagi soatni olib turib 
 8 soatga ayirvoradi shuni hisozbiga ishchilarni nechi soat ish qarzdorligini chiqarib beradi.
 
-## O'rnatish
+# O'rnatish
 
-# Loyihani o'rnatish bo'yicha yo'riqnomalar:
+## Loyihani o'rnatish bo'yicha yo'riqnomalar:
 
 ```GITHUB
 
